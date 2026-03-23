@@ -2,8 +2,9 @@
   "name": "blog-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,7 +18,4 @@
     "swagger-ui-express": "^5.0.1",
     "uuid": "^13.0.0"
   }
-}
-    "scripts": {
-  "start": "node server.js"
 }
